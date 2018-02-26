@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  
+    <metacharset="UTF-8">
+            
+    <title>Crystal Collector</title>
+            
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+            
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<div class="container">
+
+    <div class="row">
+
+        <h1 id="header">The Crystal Collector Game</h1>
+
+        </div>
+
+    </div>
+
+<br>
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="directions col-md-6">
+
+        <h2 id=hdirections>How to Play:</h2>
+
+        <p>1. You will be given a random number at the start of the game.</p>
+        <p>2. There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+        <p>3. You win the game by matching your total score to random number. You lose the game if your total score goes above the random number.</p>
+        <P>4. The value of each crystal is hidden from you until you click on it.</P>
+        <p>5. Each time when the game starts, the game will change the values of each crystal.</p>
+
+        </div>
+
+    <div class="matchCurrent col-md-6">
+
+        <br>
+
+            <h2>Match This Number:  <span id="targetNumber"></span></h2>
+
+        <br>
+
+            <h2>Your Current Number:  <span id="curScore"></span></h2>
+
+            <br>
+
+            <h2 id="underline2">Scoreboard:</h2>
+
+                 <p>Wins: <span id="winCounter"></span></p>
+
+                 <p>Losses: <span id="lossCounter"></span></p>
+
+
+    </div>
+
+    </div>
+
+    </div>
+
+    <br>
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="crystals col-md-12">
+
+                <img src="assets/images/cry1.png" id="cry1" alt="Blue Crystal">
+    
+                <img src="assets/images/cry2.png" id="cry2" alt="Green Crystal">
+
+                <img src="assets/images/cry3.png" id="cry3" alt="Red Crystal"> 
+
+                <img src="assets/images/cry4.png" id="cry4" alt="Gold Crystal">
+
+            </div>
+        </div>
+    </div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script src="assets/javascript/game.js"></script>
+
+ <body>
+
+</html>
